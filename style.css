@@ -350,14 +350,12 @@ i {
 }
 
 .row.g-3 {
-  gap: var(--space-lg);
-  margin-left: 0;
+margin-left: 0;
   margin-right: 0;
 }
 
 .row.g-4 {
-  gap: var(--space-xl);
-  margin-left: 0;
+margin-left: 0;
   margin-right: 0;
 }
 
@@ -2183,5 +2181,14 @@ cite {
   
   .l-section {
     page-break-inside: avoid;
+  }
+}
+
+@media (max-width: 767px) {
+  .g-3 {
+    gap: var(--space-lg);
+  }
+  .g-4 {
+    gap: var(--space-xl);
   }
 }

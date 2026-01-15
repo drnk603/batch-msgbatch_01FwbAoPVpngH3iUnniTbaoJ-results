@@ -17,8 +17,8 @@
 
   const VALIDATION = {
     name: /^[a-zA-ZÀ-ÿs-']{2,50}$/,
-    email: /^[^s@]+@[^s@]+.[^s@]+$/,
-    phone: /^[ds+-()[]]{10,20}$/,
+    email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+    phone: /^[\d\s+\-()[\]]{10,20}$/,
     messageMinLength: 10
   };
 
